@@ -1,0 +1,69 @@
+#btnBack ion-icon {
+  font-size: 1.5rem;
+}
+
+#history {
+  text-align: center;
+}
+
+#history ion-grid {
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#history ion-col {
+  justify-content: flex-start;
+}
+
+#history h1 {
+  text-align: start;
+  font-size: 0.9rem;
+  margin: 0%;
+  text-wrap: nowrap;
+}
+
+#history ion-button {
+  padding-bottom: 1rem;
+}
+
+#btnFilter ion-col {
+  justify-content: flex-start;
+}
+
+#rowTitle ion-text {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+#rowItems {
+  padding-left: 1rem;
+}
+
+#rowItemName {
+  font-size: 0.9rem;
+  padding: 0%;
+  justify-content: start;
+}
+
+#rowItemQty {
+  font-size: 0.9rem;
+  padding: 0%;
+  justify-content: center;
+}
+
+#rowItems ion-text {
+  font-size: 0.9rem;
+}
+
+#colPrice {
+  justify-content: start;
+  font-weight: bold;
+}
+
+#colTotal {
+  justify-content: end;
+  font-weight: bold;
+  padding-right: 1.8rem;
+}

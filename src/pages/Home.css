@@ -1,0 +1,73 @@
+#btnCart ion-icon {
+  font-size: 1.5rem;
+}
+
+#cartCounter {
+  font-size: 0.7rem;
+  padding: 0.2rem;
+  margin-left: 0.6rem;
+}
+
+#cardProduct h2 {
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin: 0%;
+}
+
+#cardProduct h1 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0%;
+  color: #ffffff;
+}
+
+#btnProduct ion-icon {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+#section ion-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+}
+
+#productName {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+ion-col {
+  display: flex;
+  justify-content: center;
+}
+
+#cardProduct {
+  width: 9rem;
+}
+
+#cardProduct ion-text {
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  text-wrap: balance;
+}
+
+ion-card-header {
+  text-align: start;
+  justify-content: space-between;
+  height: 5rem;
+  padding-top: 1.2rem;
+  padding-left: 1.2rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0%;
+}
+
+ion-card-subtitle {
+  text-align: start;
+  justify-content: end;
+}

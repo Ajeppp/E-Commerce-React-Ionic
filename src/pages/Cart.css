@@ -1,0 +1,62 @@
+#btnAdd ion-icon {
+  font-size: 1.1rem;
+}
+
+#gridProductList {
+  padding: 0%;
+}
+
+#gridSummary {
+  padding: 1.3rem;
+}
+
+#textCounter {
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+#cartItems ion-img {
+  width: 90px;
+}
+
+#productName h1 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+#productPrice1 {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+#cardSummary {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#cardSummary ion-text {
+  font-size: 0.9rem;
+  text-align: start;
+  margin: 0%;
+  text-wrap: nowrap;
+}
+
+#cardSummary ion-button {
+  padding-bottom: 1.5rem;
+}
+
+#totalPrice ion-text {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: start;
+  margin-top: 2rem;
+  text-wrap: nowrap;
+}

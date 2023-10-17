@@ -1,0 +1,52 @@
+#btnBack h1 {
+  font-size: 1rem;
+  text-align: starts;
+  padding: 0%;
+  margin: 0%;
+}
+
+#btnCart ion-icon {
+  font-size: 1.5rem;
+}
+
+#cartCounter {
+  font-size: 0.7rem;
+  padding: 0.2rem;
+  margin-left: 0.6rem;
+}
+
+#btnBack ion-icon {
+  font-size: 1rem;
+  margin: 0%;
+  padding: 0%;
+}
+
+#cardProfile {
+  width: 14rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+#cardProfile ion-card-header {
+  margin: 0%;
+  padding-top: 0%;
+  justify-content: center;
+  text-align: center;
+}
+
+#cardProfile ion-card-content {
+  margin: 0%;
+  padding-top: 0%;
+  justify-content: center;
+  text-align: center;
+}
+
+#cardProfile h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0%;
+  margin: 0%;
+}
