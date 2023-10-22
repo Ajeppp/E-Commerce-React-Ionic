@@ -14,6 +14,7 @@ const History: React.FC = () => {
     const detailsHandler = (historyId: string) => {
         const historySelect = productsData.history.find((history) => { return history.id === historyId });
         setSelectedHistory(historySelect!);
+        console.log(historySelect);
         setIsDetail(true);
     }
 

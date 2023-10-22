@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ProductsContext, { Product, Wishlist, History } from "./product-context";
+import ProductsContext, { Product, Wishlist, History, Cart } from "./product-context";
 
 
 interface ProductsContextProviderProps {
@@ -24,7 +24,6 @@ const ProductsContextProvider: React.FC<ProductsContextProviderProps> = props =>
     const [history, setHistory] = useState<History[]>([]);
 
     const addHistory = (product: Cart[]) => {
-
         const newHistory: History = {
             id: "TRX" + Math.floor(Math.random() * 1000).toString(),
             cart: product,
@@ -51,14 +50,14 @@ const ProductsContextProvider: React.FC<ProductsContextProviderProps> = props =>
         });
     };
 
-    interface Cart {
-        id: string,
-        name: string,
-        price: number,
-        qty: number,
-        src: string,
-        total?: number
-    }
+    // interface Cart {
+    //     id: string,
+    //     name: string,
+    //     price: number,
+    //     qty: number,
+    //     src: string,
+    //     total?: number
+    // }
 
     const addToCart = (product: Product) => {
         const newCart: Cart = {
